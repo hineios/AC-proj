@@ -1,0 +1,26 @@
+
+É imprescindível instalar o TCL para o *Simulador* do P3 funcionar.
+
+Instalar em C:\TCL  (funciona garantidamente!)
+(se for instalado em C:\Program files\TCL  pode não funcionar !)
+
+Basta instalar "Tcl Run-Time files"
+
+(Se for actualizado o path para incluir C:\TCL\bin nem é
+necessário efectuar reset ao computador)
+
+
+Nota: O programa de "assemblagem" (assembler) é apenas o executável
+P3AS.EXE (disponível noutro arquivo) e não necessita do TCL.
+O programa pode ser colocado em qq. directoria e corrido onde se 
+queira - chamar a linha de comando do windows e evocar:
+ p3as <ficheiro.as>
+
+É gerado um ficheiro com extensão .lis e outro com extensão .exe
+É este último que deverá depois ser carregado para o simulador para
+correr e testar o programa
+
+
+
+Prof. Renato Nunes, 9 Mar. 2009
+.
